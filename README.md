@@ -1,8 +1,9 @@
-<div align = center>
+<div align = 'center'>
   <img src = "https://developers.google.com/static/blockly/images/logos/logo_standard.svg" width = "50%"/>
   <h1>Blockly Lexical Scope Model</h1>
   <p>Build with ❤️ for Blockly</p>
 </div>
+
 
 <br>
 
@@ -39,4 +40,4 @@ SOFTWARE.
 
 ```
 ---
-  <p align = 'center'>Build with ❤️ by Preet Vadaliya</p>
+<p align = 'center'>Build with ❤️ by Preet Vadaliya</p>
