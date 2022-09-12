@@ -1,0 +1,63 @@
+{
+  "name": "lexical-scop-model",
+  "version": "0.0.0",
+  "description": "A Blockly plugin.",
+  "scripts": {
+    "audit:fix": "blockly-scripts auditFix",
+    "build": "blockly-scripts build",
+    "clean": "blockly-scripts clean",
+    "lint": "blockly-scripts lint",
+    "predeploy": "blockly-scripts predeploy",
+    "prepublishOnly": "npm run clean && npm run build",
+    "start": "blockly-scripts start",
+    "test": "blockly-scripts test"
+  },
+  "main": "./dist/index.js",
+  "module": "./src/index.js",
+  "unpkg": "./dist/index.js",
+  "author": "",
+  "keywords": [
+    "blockly",
+    "blockly-plugin",
+    "."
+  ],
+  "homepage": "https://github.com/preetvadaliya/lexical-scop-model/tree/master/.#readme",
+  "bugs": {
+    "url": "https://github.com/preetvadaliya/lexical-scop-model/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/preetvadaliya/lexical-scop-model.git",
+    "directory": "."
+  },
+  "license": "Apache-2.0",
+  "directories": {
+    "dist": "dist",
+    "src": "src"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "@blockly/dev-scripts": "^1.2.24",
+    "@blockly/dev-tools": "^3.1.8",
+    "blockly": "^8.0.3",
+    "is-var-name": "^2.0.0"
+  },
+  "peerDependencies": {
+    "blockly": "^8.0.3"
+  },
+  "publishConfig": {},
+  "eslintConfig": {
+    "extends": "@blockly/eslint-config"
+  },
+  "engines": {
+    "node": ">=8.17.0"
+  },
+  "browserslist": [
+    "defaults",
+    "IE 11",
+    "IE_Mob 11"
+  ]
+}
